@@ -1,4 +1,5 @@
 
+
 //binary search
 
 #include <iostream>
@@ -28,7 +29,7 @@ int main()
 int binarySearch(int arr[], int l, int r, int x)
 {
     while(l <= r){
-        int m = l + (r-1)/2;
+        int m = l + (r-l)/2;
         
         //check if x is present in the middle
         if (arr[m]==x)
@@ -48,12 +49,3 @@ int binarySearch(int arr[], int l, int r, int x)
 
     
 }
-
-
-
-
-
-
-
-
-
